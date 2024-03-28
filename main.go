@@ -6,7 +6,7 @@ func main() {
 	fmt.Println(compare([]int{5, 8, 6, 9}, []int{5, 8, 6, 9, 13}))
 }
 
-func stack(s1, s2 []int) bool {
+func compare(s1, s2 []int) bool {
 	if len(s1) != len(s2) {
 		return false
 	}
